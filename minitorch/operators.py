@@ -232,8 +232,8 @@ def sum(ls):
     return fn(ls)
 
 
-def prod(ls):
+def prod(l):
     "Product of a list using :func:`reduce` and :func:`mul`."
     # TODO: Implement for Task 0.3.
     fn = reduce(mul, 1)
-    return fn(ls)
+    return fn(l)
