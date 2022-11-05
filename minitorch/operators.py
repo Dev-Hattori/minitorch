@@ -37,7 +37,7 @@ def neg(x):
 def lt(x, y):
     ":math:`f(x) =` 1.0 if x is less than y else 0.0"
     # TODO: Implement for Task 0.1.
-    return 1.0 if x < y else 0.0
+    return 1 if x < y else 0
 
 
 def eq(x, y):
